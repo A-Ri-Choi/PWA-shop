@@ -19,5 +19,20 @@
   </head>
   <body>
     <div id="root">hello</div>
+    
+    <script>
+      // 서비스 워커 등록
+      if ('serviceWorker' in navigator) {
+          window.addEventListener('load', () => {
+              navigator.serviceWorker.register('/sw.js')
+              .then((registration) => {
+                  console.log('Service Worker registered with scope:', registration.scope);
+              })
+              .catch((error) => {
+                  console.error('Service Worker registration failed:', error);
+              });
+          });
+      }
+  </script>
   </body>
 </html>
