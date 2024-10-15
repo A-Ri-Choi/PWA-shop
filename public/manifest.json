@@ -1,0 +1,25 @@
+{
+  "name": "Example",
+  "short_name": "Example",
+  "description": "Example App",
+  "start_url": "/",
+  "scope": "/",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "dir" : "ltr",
+  "display": "fullscreen",
+  "orientation": "landscape",
+  "screenshots": [],
+  "icons": [
+      {
+          "src": "../images/192x192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+      },
+      {
+          "src": "../images/512x512.png",
+          "sizes": "512x512",
+          "type": "image/png"
+      }
+  ]
+}
