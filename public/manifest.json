@@ -2,7 +2,7 @@
   "name": "Example",
   "short_name": "Example",
   "description": "Example App",
-  "start_url": "https://a-ri-choi.github.io/PWA-shop/",
+  "start_url": "/",
   "scope": "/",
   "background_color": "#ffffff",
   "theme_color": "#ffffff",
