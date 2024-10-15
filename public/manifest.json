@@ -2,7 +2,7 @@
   "name": "Example",
   "short_name": "Example",
   "description": "Example App",
-  "start_url": "/",
+  "start_url": "https://a-ri-choi.github.io/PWA-shop/",
   "scope": "/",
   "background_color": "#ffffff",
   "theme_color": "#ffffff",
@@ -12,12 +12,12 @@
   "screenshots": [],
   "icons": [
       {
-          "src": "../images/192x192.png",
+          "src": "/src/192x192.png",
           "sizes": "192x192",
           "type": "image/png"
       },
       {
-          "src": "../images/512x512.png",
+          "src": "/src/512x512.png",
           "sizes": "512x512",
           "type": "image/png"
       }
